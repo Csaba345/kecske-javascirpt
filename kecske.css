@@ -41,7 +41,18 @@ article{
     border: 1px solid lightgray;
     padding: 5px;
     grid-area: ar;
+    background-color: lightskyblue ;
+    display: grid;
+    grid-template-columns: 0px 200px 0px;
+    grid-template-rows: 10px; 
+    text-align: center;
 }
+article img{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
 
 #bal p img {
     float: left;
